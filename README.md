@@ -58,7 +58,6 @@ docker compose restart app
 
 ## Details on quickstart
 
-This static site was generated following these steps.
+This web app was generated following these steps.
 1. `dotnet new webapp --no-https -o .`
 2. `dotnet new gitignore`
-3. 
