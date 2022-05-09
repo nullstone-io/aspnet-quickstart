@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>dotnet_quickstart</RootNamespace>
+    <RootNamespace>aspnet_quickstart</RootNamespace>
   </PropertyGroup>
 
 </Project>

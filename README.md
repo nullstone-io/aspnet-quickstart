@@ -1,4 +1,4 @@
-# .NET Quickstart
+# ASP.NET Quickstart
 
 This is an ASP.NET Core Web App Quickstart for [Nullstone](https://nullstone.io).
 This is based off the official [ASP.NET Core get started](https://docs.microsoft.com/en-us/aspnet/core/getting-started/?view=aspnetcore-6.0) tutorial.
@@ -17,8 +17,8 @@ This quickstart is set up with:
   ```
 4. Build, push, and deploy
   ```shell
-  docker build -t dotnet-quickstart .
-  nullstone launch --source=dotnet-quickstart --app=<app-name> --env=<env-name>
+  docker build -t aspnet-quickstart .
+  nullstone launch --source=aspnet-quickstart --app=<app-name> --env=<env-name>
   ```
 
 ## Running locally
@@ -32,7 +32,7 @@ The docker setup is configured to hot reload; you don't have to rebuild/restart 
 docker compose up
 ```
 
-Visit [http://localhost:5281](http://localhost:5281).
+Visit [http://localhost:5001](http://localhost:5001).
 
 ### Dev Server
 
@@ -40,7 +40,7 @@ Visit [http://localhost:5281](http://localhost:5281).
 dotnet watch run
 ```
 
-Visit [http://localhost:5281](http://localhost:5281).
+Visit [http://localhost:5192](http://localhost:5192).
 
 ### Hot reload
 

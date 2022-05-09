@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace dotnet_quickstart.Pages;
+namespace aspnet_quickstart.Pages;
 
 public class PrivacyModel : PageModel
 {
