@@ -1,10 +1,10 @@
 # .NET Quickstart
 
 This is an ASP.NET Core Web App Quickstart for [Nullstone](https://nullstone.io).
-This is based off the official [ASP.NET Core get started](https://docs.microsoft.com/en-us/aspnet/core/getting-started/?view=aspnetcore-6.0&tabs=macos) tutorial.
+This is based off the official [ASP.NET Core get started](https://docs.microsoft.com/en-us/aspnet/core/getting-started/?view=aspnetcore-6.0) tutorial.
 
 This quickstart is set up with:
-- .NET 6
+- ASP.NET Core 6
 - HTTPS disabled (handled by AWS infrastructure)
 
 ## How to launch via Nullstone
