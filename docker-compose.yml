@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app:
+    image: mcr.microsoft.com/dotnet/sdk:6.0
+    command: dotnet watch run --no-launch-profile
+    working_dir: /app
+    ports:
+      - "5001:5001"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5001
+    volumes:
+      - .:/app
+      - ~/.vsdbg:/remote_debugger:rw
