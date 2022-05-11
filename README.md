@@ -9,7 +9,7 @@ This quickstart is set up with:
 
 ## How to launch via Nullstone
 
-1. Create a static site. (Remember `app-name` for later)
+1. Create a public web app. (Remember `app-name` for later)
 2. Add a subdomain. (this will add a Load Balancer capability)
 3. Provision
   ```shell
