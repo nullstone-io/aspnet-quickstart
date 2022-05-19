@@ -13,7 +13,7 @@ This quickstart is set up with:
 2. Add a subdomain. (this will add a Load Balancer capability)
 3. Provision
   ```shell
-  nullstone up --wait --block=<app-name> --env=<env-name> --var=service_port=8000
+  nullstone up --wait --block=<app-name> --env=<env-name> --var=service_port=9000
   ```
 4. Build, push, and deploy
   ```shell
