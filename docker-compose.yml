@@ -1,8 +1,17 @@
 version: '3.8'
 
 services:
+  db:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      SA_PASSWORD: "Password1234%^&*"
+      ACCEPT_EULA: "Y"
   app:
     image: nullstone/dotnet:local
+    depends_on:
+      - db
+    environment:
+      SQLSERVER_DSN: "Data Source=db;Initial Catalog=master;User ID=sa;Password=Password1234%^&*"
     ports:
       - "5001:5001"
     volumes:
