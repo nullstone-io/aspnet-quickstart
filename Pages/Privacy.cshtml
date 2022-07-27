@@ -6,3 +6,11 @@
 <h1>@ViewData["Title"]</h1>
 
 <p>Use this page to detail your site's privacy policy.</p>
+
+<div style="margin-top: 60px">
+    <h4>Sql Server Connection Result</h4>
+    @foreach(var result in Model.Result)
+    {
+        <p>@result</p>
+    }
+</div>
