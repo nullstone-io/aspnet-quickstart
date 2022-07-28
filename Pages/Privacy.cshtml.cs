@@ -19,7 +19,6 @@ public class PrivacyModel : PageModel
             try
             {
                 string connectionString = Environment.GetEnvironmentVariable("SQLSERVER_DSN");
-                // string connectionString = "Data Source=db;Initial Catalog=master;User ID=sa;Password=Password1234%^&*";
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
